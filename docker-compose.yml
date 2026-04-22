@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  emgs-tracker:
+    build: .
+    container_name: emgs-tracker
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    command: ["python", "-m", "app.main"]

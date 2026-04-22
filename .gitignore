@@ -1,0 +1,4 @@
+.env
+data/visa_tracker_state.json
+__pycache__/
+*.pyc
