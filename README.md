@@ -221,7 +221,7 @@ app/
 ├── email_templates.py
 ├── emgs_client.py
 └── runner.py
-
+```
 # File Overview
 
 ## `app/main.py`
